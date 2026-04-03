@@ -25,6 +25,7 @@ import Sobre from './base/Sobre.vue'
 const router = useRouter()
 
 function elegir(tipo) {
+  localStorage.setItem('sobre-elegido', tipo)
   router.push(`/carta/${tipo}`)
 }
 </script>

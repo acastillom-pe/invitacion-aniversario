@@ -14,4 +14,11 @@ const router = createRouter({
     routes
 })
 
+router.beforeEach((to) => {
+    const elegido = localStorage.getItem('sobre-elegido')
+    if (elegido && (to.path === '/' || to.path === '/sobres')) {
+        return `/carta/${elegido}`
+    }
+})
+
 export default router
