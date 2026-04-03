@@ -24,12 +24,15 @@
 </template>
 
 <script setup>
+import { inject } from 'vue'
 import { useRouter } from 'vue-router'
 import BtnPrimary from './base/BtnPrimary.vue'
 
 const router = useRouter()
+const playMusica = inject('playMusica')
 
 function siguiente() {
+  playMusica()
   router.push('/sobres')
 }
 </script>
