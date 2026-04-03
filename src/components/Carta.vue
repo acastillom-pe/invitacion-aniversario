@@ -3,7 +3,7 @@
     class="min-h-screen w-full flex flex-col items-center justify-start py-12 px-5 pb-20"
     :class="tipo === 'fria' ? 'bg-[#eef6fb]' : 'bg-[#fdf0e8]'"
   >
-    <div class="bg-white max-w-[460px] w-full px-11 py-12 relative shadow-xl animate-unfold">
+    <div class="bg-white max-w-[460px] w-full px-11 py-12 relative shadow-xl">
 
       <!-- Número decorativo -->
       <div
