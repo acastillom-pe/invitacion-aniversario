@@ -70,26 +70,17 @@
 
     </div>
 
-    <!-- Botón volver -->
-    <button
-      class="mt-7 px-7 py-3 bg-transparent border border-[#ddd] rounded-sm text-[10px] tracking-[3px] uppercase text-[#9a9189] cursor-pointer transition-all hover:border-[#9a9189] hover:text-[#1a1814]"
-      @click="router.push('/sobres')"
-    >
-      ← Volver
-    </button>
-
   </div>
 </template>
 
 <script setup>
 import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { rutas } from '../services/invitacion.js'
 import RestaurantCard from './base/RestaurantCard.vue'
 import PlanItem from './base/PlanItem.vue'
 
 const route = useRoute()
-const router = useRouter()
 
 const tipo = computed(() => route.params.tipo)
 const ruta = computed(() => rutas[tipo.value])
