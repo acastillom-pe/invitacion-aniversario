@@ -66,7 +66,7 @@
       <p class="font-['Playfair_Display'] text-[15px] italic text-[#9a9189] leading-[1.75] text-right mb-1.5">
         Hoy no hay apuro.<br>Solo nosotros y lo que venga.
       </p>
-      <p class="text-[11px] tracking-[2px] text-[#c8c0b4] text-right">— [tu nombre] ♡</p>
+      <p class="text-[11px] tracking-[2px] text-[#c8c0b4] text-right">— Andresito ♡</p>
 
     </div>
 
