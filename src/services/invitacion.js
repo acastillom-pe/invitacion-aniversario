@@ -12,9 +12,8 @@ export const rutas = {
         restSub: 'Ceviche · mariscos · Barranco · 3:00 pm',
         plan: [
             { hora: '3:00', nombre: 'Terminal Pesquero', desc: 'Punto de inicio — ceviche fresco, sin prisa' },
-            { hora: '5:00', nombre: 'Barranco', desc: 'Caminamos sin rumbo, vemos qué nos llama' },
-            { hora: '6:30', nombre: 'Malecón', desc: 'Si se da, llegamos al atardecer' },
-            { hora: '8:00', nombre: 'Cine', desc: 'Cierre tranquilo, dejamos que el día termine solo 🎬' },
+            { hora: '5:30', nombre: 'Barranco', desc: 'Caminamos sin rumbo, dejamos que la tarde nos lleve' },
+            { hora: '8:00', nombre: 'Cine', desc: 'Cierre tranquilo, juntos 🎬' },
         ]
     },
     cal: {
